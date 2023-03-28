@@ -1,0 +1,204 @@
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <!-- Mi css-->
+    <link rel="stylesheet" href="./css/main.css">
+    <!--FavIcon-->
+    <link rel="icon" type="image/png" href="./img/favicon.png"/>
+    <title>Zangetsu</title>
+  </head>
+  <body>
+    <!--------------------->
+    <!--ENCABEZADO-->
+    <!--------------------->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <p class="text-light mb-0 p-2 fs-5">Página realiza por alumnado del Ciclo Superior DAW. Las imágenes son propiedad de sus dueños.La web solo es un ejercicio de clase. No apoyamos ni promovemos ningun tipo de infracción.</p>
+    </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-light fs-5 fw-bold">Zangetsu</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" align="right">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html" target="_parent">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="FernandoAlonso.html" target="_parent">Alonso</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="RedBull.html" target="_parent">RedBull</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="CarlosSainz.html" target="_parent">Carlos Sainz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="LewisHamilton.html" target="_parent">Lewis Hamilton</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Que quieres buscar" aria-label="Buscar">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--------------------->
+    <!--ENCABEZADO-->
+    <!--------------------->
+     <!--------------------->
+    <!--MENU-->
+    <!--------------------->
+
+  
+  <body>
+    <section class="pt-4">
+      <table align="center" border="1">
+          <tr>
+              <td>
+                  <div id="contenedor" class="p-2">
+                      <form method="get" action="https://iesjacaranda.es/lmsgi/resultado.php">
+                          <h2 class="p-2 fs-2"><a name="contac">Contacto</a></h2>
+                          <ul class="form">
+                          <li class="izquierda">
+                              <label class="titulo" for="nombre">Nombre y apellidos <span class="requerido">*</span></label>
+                              <div>
+                              <span class="completo">
+                                  <input id="nombre" name="nombre" value="" />
+                                  <label for="nombre">Nombre</label>
+                              </span>
+                              <br>
+                              <span class="completo">
+                                  <input id="apellido1" name="apellido1" value="" />
+                                  <label for="apellido1">Apellidos</label>
+                              </span>
+                              <br>
+                              <br>
+                              <p class="ayuda">No te olvides de escribir también tu segundo apellido</p>
+                          </li>
+                  
+                          <li class="derecha">
+                              <label class="titulo" for="direccion">Dirección <span class="requerido">*</span></label>
+                  
+                              <div>
+                              <span class="completo">
+                                  <input id="direccion" name="direccion" value="" />
+                                  <label for="direccion">Calle, número, piso, puerta</label>
+                              </span>
+                              <br>
+                              <br>
+                              <span class="tercio">
+                                  <input id="codigopostal" name="codigopostal" value="" />
+                                  <label for="codigopostal">Código postal</label>
+                              </span>
+                              <br>
+                              <br>
+                              <span class="dostercios">
+                                  <input id="municipio" name="municipio" value="" />
+                                  <label for="municipio">Municipio</label>
+                              </span>
+                              <br>
+                              <br>
+                              <span class="tercio">
+                                  <select id="provincia" name="provincia">
+                                  <option value=""></option>
+                                  <option value="provincia1">Sevilla</option>
+                                  <option value="provincia2">Lisboa</option>
+                                  <option value="provincia3">Zagreb</option>
+                                  </select>
+                                  <label for="provincia">Provincia</label>
+                              </span>
+                  
+                              <span class="dostercios">
+                                  <select id="pais" name="pais">
+                                  <option value=""></option>
+                                  <option value="pais1">España</option>
+                                  <option value="pais2">Portugal</option>
+                                  <option value="pais3">Croacia</option>
+                                  </select>
+                                  <label for="pais">País</label>
+                              </span>
+                              </div>
+                              <br>
+                          </li>
+                  
+                          <li class="izquierda">
+                              <label class="titulo" for="email">Email</label>
+                  
+                              <div>
+                              <span class="completo">
+                                  <input id="email" name="email" value="" />
+                              </span>
+                              </div>
+                  
+                          </li>
+                  
+                          <li class="derecha">
+                              <label class="titulo" for="telefonofijo">Teléfono <span class="requerido">*</span></label>
+                  
+                              <div>
+                              <span class="mitad">
+                                  <input id="telefonofijo" name="telefonofijo" value="" />
+                                  <label for="telefonofijo">Fijo</label>
+                              </span>
+                              &nbsp;&nbsp;&nbsp;
+                              <span class="mitad">
+                                  <input id="telefonomovil" name="telefonomovil" value="" />
+                                  <label for="telefonomovil">Móvil</label>
+                              </span>
+                              </div>
+                  
+                            
+                          </li>
+                          <br>
+                          <div class="text-center">
+                              <input id="alta" type="submit" value="Contactar &rarr;" />
+                          </div>
+                          </ul>
+                      </form>
+                  </div>
+              </td>
+          </tr>
+      </table>
+  
+  </div>
+  </body>
+  </html>
+  <!--------------------->
+  <!--MENU-->
+  <!--------------------->
+
+    <br>
+    <br>
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Explora nuestra web</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div class="offcanvas-header">
+  <h5 id="offcanvasRightLabel">Links</h5>
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <a class="nav-link" aria-current="page" href="index.html" target="_parent"><b>Inicio</b></a>
+  <a class="nav-link" aria-current="page" href="FernandoAlonso.html" target="_parent"><b>Fernando Alonso</b></a>
+  <a class="nav-link" aria-current="page" href="LewisHamilton.html" target="_parent"><b>Lewis Hamilton</b></a>
+  <a class="nav-link" aria-current="page" href="RedBull.html" target="_parent"><b>RedBull</b></a>
+  <a class="nav-link" aria-current="page" href="CarlosSainz.html" target="_parent"><b>Carlos Sainz</b></a>
+  <a class="nav-link" aria-current="page" href="contacto.html" target="_parent"><b>Contacto</b></a>
+</div>
+</div>
+<!--Footer-->
+
+<!--Footer-->
+</body>
+</html>
